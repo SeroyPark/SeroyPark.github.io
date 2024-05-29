@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>JongYeon's PORTFOLIO</title>
-    <meta name="description" content='안녕하세요. 백엔드 개발자 박진기의 포트폴리오 사이트입니다. 찾아주셔서 감사합니다.' />
+    <meta name="description" content='안녕하세요. 성장하는 개발자 박진기의 포트폴리오 사이트입니다. 찾아주셔서 감사합니다.' />
     <meta property="og:url" content="https://seroypark.github.io/Portfolio/">
     <meta property="og:title" content="JongYeon's PORTFOLIO">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://seroypark.github.io/Portfolio/src/img/logo2.png">
-    <meta property="og:description" content="안녕하세요. 백엔드 개발자 박진기의 포트폴리오 사이트입니다. 찾아주셔서 감사합니다.">
+    <meta property="og:description" content="안녕하세요. 성장하는 개발자 박진기의 포트폴리오 사이트입니다. 찾아주셔서 감사합니다.">
     
     <link rel="shortcut icon" href="./src/img/fav.ico" />
     <link rel="stylesheet" href="./css/index/index.css" />
@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="./css/contact/contact.css" />
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script type='text/javascript' src='./js/jquery.mousewheel.min.js'></script>
+
 </head>
 
 <body>
@@ -35,7 +36,8 @@
                 <div class="open_icon"></div>
             </div>
             <nav class="left">
-                <a id="logo"><img src="./src/img/logo.png" alt="JinGi 로고"></a>
+ 
+                <h1 style="margin-top: 25px;">JinGiPark</h1>
             </nav>
             <nav class="right">
                 <ul id="menu">
@@ -83,7 +85,7 @@
         <!-- Intro -->
         <section class="section ct Intro" id="Intro">
             <div id="typo_1">
-                <h1>BACK-END DEV.</h1>
+                <h1>A &nbsp;PROGRESSIVE &nbsp;DEV.</h1>
                 <h2>PORTFOLIO</h2>
             </div>
             <div class="scroll">
@@ -369,16 +371,13 @@
                                 </div>
                             </div>
                             <div class="info_wrap">
-                                <div class="info_title">탄소 중립을 목표로 한 재정관리 프로그램</div>
+                                <div class="info_title">에너지 데이터 프로젝트</div>
                                 <div class="info_sub">팀프로젝트</div>
-                                <div class="info_main">React.js + SCSS + Node.js + express를 이용하여 풀스택으로 만든 개발 블로그입니다. DB는
-                                    noSQL인 'mongoDB'를 사용했고 CSR의 단점인 SEO를 최적화 함으로써 구글에서 검색가능합니다. 반응형웹으로 만들어져 모든 환경에서
-                                    사용가능합니다. <span onclick="moreButtonClick(0)">더보기</span>
+                                <div class="info_main">탄소 중립을 목표로한 재정관리 프로그램  <span onclick="moreButtonClick(0)">더보기</span>
                                     <div class="more_wrap">
                                         <p>···</p>
-                                        나만의 블로그를 직접 디자인하여 처음부터 배포까지 나의 힘으로 만들어보고 싶었고, React.js를 처음으로 배우면서 만들었기에 프로젝트 기간이
-                                        상당히 길어졌습니다. 그래서 굉장히 애정이 가는 프로젝트이며, 앞으로는 Next.js를 통해 SSR로 개편을 준비하고, 그 전까지는 블로그를 좀
-                                        더 다듬고 포스팅도 이어갈 예정입니다.
+                                        전기, 가스, 수도, 교통 에서의 탄소배출량을 계산하고, 실천일지를 작성, 가계부를 
+                                        연동하여 성공적인 탄소중립과 재정관리에 도움을 준다.
                                     </div>
                                 </div>
                                 <ul class="tag_wrap">
@@ -417,9 +416,14 @@
                                 </div>
                             </div>
                             <div class="info_wrap">
-                                <div class="info_title">DiaryWebSite</div>
+                                <div class="info_title">다이어리 웹사이트</div>
                                 <div class="info_sub">개인프로젝트</div>
                                 <div class="info_main">Spring MVC 프로젝트
+                                    <span onclick="moreButtonClick(1)">더보기</span>
+                                    <div class="more_wrap">
+                                        <p>···</p>
+                                        스프링을 활용하여 게시판 형식의 웹사이트를 만들고, 머신러닝 기능을 추가하였다.
+                                    </div>
 
                                 </div>
                                 <ul class="tag_wrap">
@@ -430,6 +434,9 @@
                                     <li class="tag">#Chart.js</li>
                                 </ul>
                                 <div class="button_wrap">
+                                    <a>
+                                        <div class="readme" onclick="readmeClick()">Readme</div>
+                                    </a>
                                     <a href="https://kimjy97.github.io/Portfolio/" target="_blank">
                                         <div class="goto">사이트 바로가기</div>
                                     </a>
@@ -457,12 +464,12 @@
                             <div class="info_wrap">
                                 <div class="info_title">아두이노를 활용한 근전도 측정 프로그램</div>
                                 <div class="info_sub">팀 프로젝트</div>
-                                <div class="info_main">AndroidStudio를 기반으로 실시간으로 근전도 수치를 측정할 수 있는 앱을 구현
+                                <div class="info_main">안드로이드 스튜디오를 기반으로 실시간으로 근전도 수치를 측정할 수 있는 앱을 구현
                                     <span onclick="moreButtonClick(2)">더보기</span>
                                     <div class="more_wrap">
                                         <p>···</p>
-                                        html/css를 배우던 초창기에 '이런 서비스가 있었으면 좋겠다' 해서 JQuery와 php를 연습할 겸 웹 프로젝트를 처음으로 진행하게
-                                        되었습니다.
+                                        디지털 헬스 케어에 초점을 맞춘 주제로 아두이노를 사용하여 근전도 수치를 확인하면서
+                                        부상의 위험을 줄이고, 근육의 정확한 수축, 이완을 확인하여 효과적인 운동을 가능하도록 한다.
                                     </div>
                                 </div>
                                 <ul class="tag_wrap">
@@ -486,19 +493,29 @@
                         <div class="Item_wrap">
                             <div class="IMG_wrap">
                                 <div class="IMG_main" onclick="mainImgClick(3,0)"><img
-                                        src='./src/img/project_img/3_0.jpg' alt='프로젝트 메인이미지'></div>
+                                        src='./src/img/project_img/fitweb/3_0.png' alt='프로젝트 메인이미지'></div>
                                 <div class="IMG_sub_wrap">
                                     <div class="IMG_sub active" onclick="subImgClick(3,0)"><img
-                                            src='./src/img/project_img/3_0.jpg' alt='프로젝트 이미지'></div>
+                                            src='./src/img/project_img/fitweb/3_0.png' alt='프로젝트 이미지'></div>
                                     <div class="IMG_sub" onclick="subImgClick(3,1)"><img
-                                            src='./src/img/project_img/3_1.jpg' alt='프로젝트 이미지'></div>
+                                            src='./src/img/project_img/fitweb/3_1.png' alt='프로젝트 이미지'></div>
                                 </div>
                             </div>
                             <div class="info_wrap">
                                 <div class="info_title">Django를 활용한 운동 추천 웹사이트</div>
                                 <div class="info_sub">팀 프로젝트</div>
-                                <div class="info_main">사용자의 운동 방법에 따라 유튜브 운동 영상 추천
-                                    했습니다.</div>
+                                <div class="info_main">사용자의 운동 방법에 따른 유튜브 운동 영상 추천
+                                    
+                                    <span onclick="moreButtonClick(3)">더보기</span>
+                                    <div class="more_wrap">
+                                        <p>···</p>
+                                        스트레칭, 웨이트, 인터벌, 사용자 커스터 마이즈
+                                        2분할, 3분할, 4분할 등에 따라서도 영상을 분류하였고<br> 
+                                        *운동 전,후 준비운동*
+                                        *남는 시간 활용, 고통 완화 등* 과 같은 세밀한 분류로 영상을 제공한다.
+                                    </div>
+                                </div>
+
                                 <ul class="tag_wrap">
                                     <li class="tag">#Django Framework</li>
                                     <li class="tag">#Django embed_video</li>
@@ -608,10 +625,10 @@
                 <div class="Contact_wrap">
                     <p>PHONE : 010-4874-8190</p>
                     <p>E-MAIL : jkspop12@naver.com</p>
-                    <p><a href="https://github.com/kimjy97" target="_blank">GITHUB : https://github.com/seroypark</a></p>
+                    <p><a href="https://github.com/seroypark" target="_blank">GITHUB : https://github.com/seroypark</a></p>
                 </div>
                 <ul class="social_wrap">
-                    <li><a href="https://github.com/kimjy97" target="_blank"><img src="src/img/github.png"
+                    <li><a href="https://github.com/seroypark" target="_blank"><img src="src/img/github.png"
                                 alt="GITHUB"></a></li>
                     <li><a href="#"><img src="src/img/instagram.png" alt="INSTAGRAM"></a></li>
                     <li><a href="#"><img src="src/img/facebook.png" alt="FACEBOOK"></a></li>
