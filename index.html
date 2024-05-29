@@ -1,576 +1,638 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>포트폴리오</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/pangsu1.ico" rel="icon" type="image/x-icon">
-  <link href="assets/img/pangsu1.ico" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: iPortfolio - v1.5.0
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-  <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&amp;subset=korean" rel="stylesheet">
-  <!-- Animate.css -->
-  <link rel="stylesheet" href="css/animate.css">
-  <!-- Icomoon Icon Fonts-->
-  <link rel="stylesheet" href="css/icomoon.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    integrity="sha384-0QhX/iTlE0p5Ov2Qn4KSQ0xyFpLT3xhgzjfzNv2z0fQR6rlp5b7dF6Z6jzN7QVDD" crossorigin="anonymous">
-  <!-- Bootstrap  -->
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <!-- Theme style  -->
-  <link rel="stylesheet" href="css/style.css">
-  <!-- Modernizr JS -->
-  <script src="js/modernizr-2.6.2.min.js"></script>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;900&display=swap" rel="stylesheet">
-  <style>
-    #font1 {
-      font-family: 'Black Han Sans', sans-serif;
-      color: rgb(12, 12, 11);
-    }
-
-    #font2 {
-      font-family: 'Black Han Sans', sans-serif;
-      color: d2d2d2;
-    }
-
-    #font3 {
-      font-family: 'Black Han Sans', sans-serif;
-      color: antiquewhite;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>JongYeon's PORTFOLIO</title>
+    <meta name="description" content='안녕하세요. 백엔드 개발자 박진기의 포트폴리오 사이트입니다. 찾아주셔서 감사합니다.' />
+    <meta property="og:url" content="https://seroypark.github.io/Portfolio/">
+    <meta property="og:title" content="JongYeon's PORTFOLIO">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://seroypark.github.io/Portfolio/src/img/logo2.png">
+    <meta property="og:description" content="안녕하세요. 백엔드 개발자 김종연의 포트폴리오 사이트입니다. 찾아주셔서 감사합니다.">
+    
+    <link rel="shortcut icon" href="./src/img/fav.ico" />
+    <link rel="stylesheet" href="./css/index/index.css" />
+    <link rel="stylesheet" href="./css/header/header.css" />
+    <link rel="stylesheet" href="./css/intro/intro.css" />
+    <link rel="stylesheet" href="./css/about/about.css" />
+    <link rel="stylesheet" href="./css/Stacks/Stacks.css" />
+    <link rel="stylesheet" href="./css/works1/works1.css" />
+    <link rel="stylesheet" href="./css/works2/works2.css" />
+    <link rel="stylesheet" href="./css/contact/contact.css" />
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script type='text/javascript' src='./js/jquery.mousewheel.min.js'></script>
 </head>
 
 <body>
-  <!-- ======= Mobile nav toggle button ======= -->
-  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="d-flex flex-column">
-      <div class="profile">
-        <img src="assets/img/profile.JPG" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">김팽수</a></h1>
-        <div class="social-links mt-3 text-center"> 
-          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        </div> 
-      </div>
-      <nav class="nav-menu">
-        <ul>
-          <li class="#active"><a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#services"><i class="bx bx-server"></i>Skill</a></li>
-          <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#project"><i class="bx bx-book-content"></i> project</a></li>
-          <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
-      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
-      <h1>😊샘플 프로필 입니다.~😊</h1>
-      <p>🎙️<span class="typed"
-          data-typed-items="sample page 입니다. ^^"></span></p>
-    </div>
-  </section><!-- End Hero -->
-  <main id="main">
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-        <div class="section-title">
-          <h2>About Me</h2>
-        </div>
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/profile.JPG" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>다양한 역량을 보유한 개발자</h3>
-            <p id="font1">열정있는 개발자 김팽수입니다.</p>
-            <p id="font1">
-              끊임없는 노력으로 성공을 이루고 긍정적 사고를 가진 개발자가 되고 싶습니다.<br />
-              강인한 체력과 끈기를 바탕으로 IT 분야에서 지속적인 성장을 이어가고자 합니다.<br />
-              화합과 소통을 바탕으로 주변에 긍정적인 영향을 끼치는 개발자가 되겠습니다.
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>Name:</strong> 김 팽 수</li><br />
-                  <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> 010-0000-0000</li><br />
-                  <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> kimpangsu@gmail.com</li><br />
-                  <li><i class="icofont-rounded-right"></i> <strong>Github:</strong><a href="https://github.com/kimpangsu"
-                      target="_blank"> https://github.com/kimpangsu</a></li><br />
-                  <li><i class="icofont-rounded-right"></i> <strong>Address:</strong> 남극시 </li>
+    <!-- HEADER -->
+    <header>
+        <div class="Header_container">
+            <div class="burger">
+                <div class="close_icon"></div>
+                <div class="open_icon"></div>
+            </div>
+            <nav class="left">
+                <a id="logo"><img src="./src/img/logo.png" alt="JinGi 로고"></a>
+            </nav>
+            <nav class="right">
+                <ul id="menu">
+                    <a href="#0">
+                        <li id="menu0" data-menuanchor="0">INTRO</li>
+                    </a>
+                    <a href="#1">
+                        <li id="menu1" data-menuanchor="1">ABOUT</li>
+                    </a>
+                    <a href="#2">
+                        <li id="menu2" data-menuanchor="2">STACKS</li>
+                    </a>
+                    <a href="#3">
+                        <li id="menu3" data-menuanchor="3">WORKS</li>
+                    </a>
+                    <a href="#4">
+                        <li id="menu4" data-menuanchor="4">CONTACT</li>
+                    </a>
                 </ul>
-              </div>
-            </div>
-          </div>
+            </nav>
         </div>
-      </div>
-      <br />
-      <!-- ======= Services Section ======= -->
-      <section id="services" class="services">
-        <div class="container">
-          <div class="section-title">
-            <h2>Skill</h2>
-            <h4>현재까지 배우고 사용 해봤던 기술입니다.</h4>
-          </div>
-          <!--언어-->
-          <div class="row">
-            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-              <div class="icon"><i class="icofont-earth"></i></div>
-              <h4 class="title">Programming Languages</h4>
-              <p class="description">
-                JAVA</br>
-                HTML/CSS/JS</br>
-                JSP<br>
-                C<br>
-                Python</br>
-                SWIFT</br>
-                MarkDown<br>
-                Solidity</br>
-                R<br>
-                SQL
-              </p>
-            </div>
-            <!--Framework/Library-->
-            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-              <div class="icon"><i class="icofont-library"></i></div>
-              <h4 class="title">Framework/Library</h4>
-              <p class="description">
-                Spring/SpringBoot<br>
-                node.js<br>
-                JQuery<br>
-                BootStrap<br>
-                FLASK<br>
-                Pandas<br>
-                numpy<br>
-                tensorflow<br>
-                pytorch<br>
-                Junit<br>
-              </p>
-            </div>
-            <!-- Build Tools -->
-            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-              <div class="icon"><i class="icofont-fix-tools"></i></div>
-              <h4 class="title">Build Tools</h4>
-              <p class="description">
-                MAVEN<br>
-                GRADLE
-              </p>
-            </div>
-            <!-- IDEs & Code Editors -->
-            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-              <div class="icon"><i class="icofont-edit-alt"></i></div>
-              <h4 class="title">IDEs & Code Editors</h4>
-              <p class="description">
-                Eclipse IDE<br>
-                Pycharm<br>
-                IntelliJ IDEA<br>
-                VSCode<br>
-                Spyder<br>
-                STS (Spring Tools 4 for Visual Studio Code)<br>
-              </p>
-            </div>
-            <!-- Code/Data Notebooks -->
-            <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-              <div class="icon"><i class="icofont-notebook"></i></div>
-              <h4 class="title">Code/Data Notebooks</h4>
-              <p class="description">
-                WJupyter Notebook<br>
-                GoogleColab
-              </p>
-            </div>
-          <!-- Cloud & Services -->
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon"><i class="icofont-cloudapp"></i></div>
-            <h4 class="title">Cloud & Services</h4>
-            <p class="description">
-              Amazon AWS
-            </p>
-          </div>
-        <!-- Server & Virtualization -->
-        <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-          <div class="icon"><i class="icofont-server"></i></div>
-          <h4 class="title">Server & Virtualization</h4>
-          <p class="description">
-            Apache Tomcat<br>
-            VirtualBox
-          </p>
+        <div class="m_menu">
+            <ul>
+                <a href="#0">
+                    <li id="menu0" data-menuanchor="0">INTRO</li>
+                </a>
+                <a href="#1">
+                    <li id="menu1" data-menuanchor="1">ABOUT</li>
+                </a>
+                <a href="#2">
+                    <li id="menu2" data-menuanchor="2">STACKS</li>
+                </a>
+                <a href="#3">
+                    <li id="menu3" data-menuanchor="3">WORKS</li>
+                </a>
+                <a href="#4">
+                    <li id="menu4" data-menuanchor="4">CONTACT</li>
+                </a>
+            </ul>
         </div>
-      <!-- Version Control -->
-      <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-        <div class="icon"><i class="icofont-github"></i></div>
-        <h4 class="title">Version Control</h4>
-        <p class="description">
-          SVN<br>
-          JENKINS<br>
-          Git / Github
-        </p>
-      </div>
-    <!-- DataBase -->
-    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-      <div class="icon"><i class="icofont-database"></i></div>
-      <h4 class="title">DataBase</h4>
-      <p class="description">
-        Oracle DB<br>
-        MySQL<br>
-        SQLite
-      </p>
+    </header>
+
+    <!-- FullPage SECTIONS -->
+    <div id="fullpage">
+        <!-- Intro -->
+        <section class="section ct Intro" id="Intro">
+            <div id="typo_1">
+                <h1>BACK-END DEV.</h1>
+                <h2>PORTFOLIO</h2>
+            </div>
+            <div class="scroll">
+                <div></div>
+                <div></div>
+                <p>SCROLL DOWN</p>
+            </div>
+        </section>
+        <!-- About -->
+        <section class="section ct About" id="About">
+            <div class="About_container">
+                <div class="attbg"></div>
+                <div id="typo_2">
+                    <h1>I PREPARE TO MAKE PROGRESS FOR<br><span>NEW START.</span></h1>
+                </div>
+                <div id="typo_3">
+                    <p>안녕하세요. 백엔드 개발자를 꿈꾸는 박진기입니다.</p>
+                    <p class="word"><span class="quote">“</span> 집요하다 : [형용사] 몹시 고집스럽고 끈질기다. <span
+                            class="quote">”</span>
+                    </p>
+                    <p>이 단어는 저에게 너무 어울리는 말입니다. 단 한개의 결함도 용납 못하는 완벽을 추구하며 목적을 위해 밤을 새우는 것을 두려워하지 않습니다. 항상 이용자 입장에서
+                        생각하며 직접 수십번 테스트해가며 작업합니다.<br>초등학생 때부터 처음으로 꿈꿔왔던 개발자의 꿈을 실현해보고자 합니다. 신입으로서 항상 배우는 자세를 가지며 경력을
+                        쌓을 준비가 되었습니다!</p>
+                    <ul class="tag_wrap">
+                        <li class="tag">#열정있는</li>
+                        <li class="tag">#세심한</li>
+                        <li class="tag">#집요한</li>
+                    </ul>
+                    <a href="#1/1" id="more">
+                        <div class="more">자세히 보기</div>
+                    </a>
+                </div>
+            </div>
+            <div id='about1'>
+                <div class="back"></div>
+                <div class="close"><img src='src/img/close_icon.png' alt="닫기 버튼"></div>
+                <div class="about1_container">
+                    <h1>MY STORY</h1>
+                    <p>
+                        &nbsp;저는 초등학교 때 게임을 하면서 내가 직접 이런 게임을 기획하고 만들어 운영해보고 싶다라는 생각이 들어 여러가지 개발 툴을 찾아보다가 당시 유행하던 플래시라는
+                        것을 알게되었습니다.<br>
+                        그 이후로 재미를 붙여 점점 코딩을 깊게 배우기 시작했고, 플래시 커뮤니티에 작품을 올리면 베스트 작품에도 자주 올라가고 대부분 반응이 좋았습니다. 이 것은 저에게 성취감을
+                        크게 느끼게 해주었고, 프로그래밍의 길에 한 걸음씩 나아갈 수 있는 힘이 되었습니다.
+                    </p>
+                    <ul class="past_wrap">
+                        <li onclick="pastImgClick('1_2.jpg')"><img src='src/img/past/1_2.jpg' alt='과거 프로젝트'></li>
+                        <li onclick="pastImgClick('2_1.jpg')"><img src='src/img/past/2_1.jpg' alt='과거 프로젝트'></li>
+                        <li onclick="pastImgClick('3_1.jpg')"><img src='src/img/past/3_1.jpg' alt='과거 프로젝트'></li>
+                        <li onclick="pastImgClick('3_2.jpg')"><img src='src/img/past/3_2.jpg' alt='과거 프로젝트'></li>
+                        <li onclick="pastImgClick('4_1.jpg')"><img src='src/img/past/4_1.jpg' alt='과거 프로젝트'></li>
+                        <li onclick="pastImgClick('4_2.jpg')"><img src='src/img/past/4_2.jpg' alt='과거 프로젝트'></li>
+                        <li>
+                            <p>· · ·</p>
+                        </li>
+                    </ul>
+                    <p class="img_title">[ 2010~2012년도 중학생 때의 작품 ]</p>
+                    <p>&nbsp;어렸을 적 작품이라서 부끄럽지만 플래시라는 프로그램으로 정말 다양하게 만들어본 수십개의 작품 중 몇가지의 작품들입니다. 이러한 경험은
+                        프로그래머로서의 성장에 정말 많은 도움이 되었고, 다른 프로그래밍 언어나 알고리즘을 배우는 것도 수월하게 할 수 있었습니다.<br>&nbsp;개발자의 길은 평생을 트렌드를
+                        쫓아 공부해야 한다고 생각합니다. 어렸을 때부터 이런 적성과 흥미가 있었던 저에게 있어서는 개발자는 천직이라고 생각하며 끊임 없이 공부할 것입니다!</p>
+                </div>
+            </div>
+        </section>
+        <!-- Stacks -->
+        <section class="section ct Stacks" id="Stacks">
+            <canvas id="dotCanvas"></canvas>
+            <div class="grad top"></div>
+            <div class="grad bottom"></div>
+            <div class="Stacks_container">
+                <h1>TECH STACK</h1>
+                <h2>아이콘에 마우스를 올리면 자세한 설명이 나옵니다.</h2>
+                <div id="Language" class="stacks_wrap2">
+                    <div class="subTitle frontend">
+                        <span># Language</span>
+                    </div>
+                    <div class="stack_container">
+                        <ul>
+                            <li>
+                                <img src="src/img/stack_icon/html5.png" alt="HTML5">
+                                <div>
+                                    <p>HTML5</p>
+                                    <p>웹접근성, 표준성을 준수하며 시멘틱태그를 이용해 마크업 할 수 있습니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="src/img/stack_icon/css3.png" alt="CSS3">
+                                <div>
+                                    <p>CSS3</p>
+                                    <p>position, display를 적절히 사용하여 반응형웹을 적용할 수 있습니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="src/img/stack_icon/sass.png" alt="SASS">
+                                <div>
+                                    <p>SASS</p>
+                                    <p>SCSS의 문법과 모듈화를 잘 활용하여 스타일 작업을 원활히 할 수 있습니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="src/img/stack_icon/js.png" alt="JS">
+                                <div>
+                                    <p>Javascript</p>
+                                    <p>Javascript의 배열, 메소드, DOM을 이해하며 다양한 상황에 적용할 수 있습니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="src/img/stack_icon/jquery.png" alt="JQuery">
+                                <div>
+                                    <p>JQuery</p>
+                                    <p>관련 라이브러리와 애니메이션, 여러 메소드들을 잘 활용할 수 있습니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="src/img/stack_icon/reactjs.png" alt="React.js">
+                                <div>
+                                    <p>React.js</p>
+                                    <p>React 구조와 여러가지 hook들을 잘 알고 있으며, 범용적이고 재사용가능한 컴포넌트 설계를 할 수 있습니다.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="frontendStack" class="stacks_wrap">
+                    <div class="subTitle frontend">
+                        <span># AI</span>
+                    </div>
+                    <div class="stack_container">
+                        <ul>
+                            <li>
+                                <img src="src/img/stack_icon/html5.png" alt="HTML5">
+                                <div>
+                                    <p>HTML5</p>
+                                    <p>웹접근성, 표준성을 준수하며 시멘틱태그를 이용해 마크업 할 수 있습니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="src/img/stack_icon/css3.png" alt="CSS3">
+                                <div>
+                                    <p>CSS3</p>
+                                    <p>position, display를 적절히 사용하여 반응형웹을 적용할 수 있습니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="src/img/stack_icon/sass.png" alt="SASS">
+                                <div>
+                                    <p>SASS</p>
+                                    <p>SCSS의 문법과 모듈화를 잘 활용하여 스타일 작업을 원활히 할 수 있습니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="src/img/stack_icon/js.png" alt="JS">
+                                <div>
+                                    <p>Javascript</p>
+                                    <p>Javascript의 배열, 메소드, DOM을 이해하며 다양한 상황에 적용할 수 있습니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="src/img/stack_icon/jquery.png" alt="JQuery">
+                                <div>
+                                    <p>JQuery</p>
+                                    <p>관련 라이브러리와 애니메이션, 여러 메소드들을 잘 활용할 수 있습니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="src/img/stack_icon/reactjs.png" alt="React.js">
+                                <div>
+                                    <p>React.js</p>
+                                    <p>React 구조와 여러가지 hook들을 잘 알고 있으며, 범용적이고 재사용가능한 컴포넌트 설계를 할 수 있습니다.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="backendStack" class="stacks_wrap">
+                    <div class="subTitle backend">
+                        <span># Framework</span>
+                    </div>
+                    <div class="stack_container">
+                        <ul>
+                            <li>
+                                <img src="src/img/stack_icon/nodejs.png" alt="Node.js">
+                                <div>
+                                    <p>Node.js</p>
+                                    <p>서버의 API를 구축할 수 있으며, DB와 연동하여 CRUD 기능을 수행할 수 있습니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img id='height_icon' src="src/img/stack_icon/mongodb.png" alt="mongoDB">
+                                <div>
+                                    <p>mongoDB</p>
+                                    <p>mongoose를 이용해 mongoDB의 스키마 정의와 데이터들을 처리할 수 있습니다. </p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="src/img/stack_icon/php.png" alt="PHP">
+                                <div>
+                                    <p>PHP</p>
+                                    <p>PHP를 이용하여 동적컨텐츠를 만들 수 있고, CRUD 기능을 수행할 수 있습니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="src/img/stack_icon/json.png" alt="JSON">
+                                <div>
+                                    <p>JSON</p>
+                                    <p>JSON의 객체 구조를 잘 파악할 수 있으며, javascript에서 활용할 수 있습니다.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="toolStack" class="stacks_wrap">
+                    <div class="subTitle backend">
+                        <span># Web/Database</span>
+                    </div>
+                    <div class="stack_container">
+                        <ul>
+                            <li>
+                                <img src="src/img/stack_icon/vscode.png" alt="VisualStudio code">
+                                <div>
+                                    <p>VS Code</p>
+                                    <p>주로 사용하는 코딩툴이며, 코딩에 편리한 확장프로그램들을 설치해 사용하고 있습니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img id='height_icon' src="src/img/stack_icon/figma.png" alt="Figma">
+                                <div>
+                                    <p>Figma</p>
+                                    <p>데스크톱, 모바일 UI/UX 시안을 작업 할 수 있으며, 디버깅을 잘 활용할 수 있습니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="src/img/stack_icon/photoshop.png" alt="photoshop">
+                                <div>
+                                    <p>PHOTOSHOP</p>
+                                    <p>마스크효과, 레이어 활용 등을 이용해 다양한 그래픽 요소를 제작할 수 있습니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="src/img/stack_icon/illustrator.png" alt="illustrator">
+                                <div>
+                                    <p>Illustrator</p>
+                                    <p>펜툴 활용과 기타도구들을 이용해서 벡터 형식의 디자인 요소를 제작할 수 있습니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="src/img/stack_icon/postman.png" alt="postman">
+                                <div>
+                                    <p>POSTMAN</p>
+                                    <p>Postman을 이용해 서버에 GET, POST 요청을 해서 서버 디버깅을 할 수 있습니다.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="src/img/stack_icon/git.png" alt="Git">
+                                <div>
+                                    <p>Git</p>
+                                    <p>commit, push, pull, clone 등 git 명령어를 사용하여 레파지토리에 접근할 수 있습니다.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Works -->
+        <section class="section ct Works" id="Works">
+            <div class="Works1_container">
+                <h1>WORKS</h1>
+                <div class="Item_container">
+                    <div class="Item_nav_prev" title="PREVIOUS PROJECT"></div>
+                    <div class="wi wi0 visible">
+                        <div class="Item_wrap">
+                            <div class="IMG_wrap">
+                                <div class="IMG_main" onclick="mainImgClick(0,0)"><img
+                                        src='./src/img/project_img/0_0.jpg' alt='프로젝트 이미지'></div>
+                                <div class="IMG_sub_wrap">
+                                    <div class="IMG_sub active" onclick="subImgClick(0,0)"><img
+                                            src='./src/img/project_img/0_0.jpg' alt='프로젝트 이미지'></div>
+                                    <div class="IMG_sub" onclick="subImgClick(0,1)"><img
+                                            src='./src/img/project_img/0_1.jpg' alt='프로젝트 이미지'></div>
+                                    <div class="IMG_sub" onclick="subImgClick(0,2, true)"><img class='mobileImg'
+                                            src='./src/img/project_img/0_2.jpg' alt='프로젝트 이미지'></div>
+                                    <div class="IMG_sub" onclick="subImgClick(0,3)"><img
+                                        src='./src/img/project_img/0_3.jpg' alt='프로젝트 이미지'></div>
+                                </div>
+                            </div>
+                            <div class="info_wrap">
+                                <div class="info_title">탄소 중립을 목표로 한 재정관리 프로그램</div>
+                                <div class="info_sub">팀프로젝트</div>
+                                <div class="info_main">React.js + SCSS + Node.js + express를 이용하여 풀스택으로 만든 개발 블로그입니다. DB는
+                                    noSQL인 'mongoDB'를 사용했고 CSR의 단점인 SEO를 최적화 함으로써 구글에서 검색가능합니다. 반응형웹으로 만들어져 모든 환경에서
+                                    사용가능합니다. <span onclick="moreButtonClick(0)">더보기</span>
+                                    <div class="more_wrap">
+                                        <p>···</p>
+                                        나만의 블로그를 직접 디자인하여 처음부터 배포까지 나의 힘으로 만들어보고 싶었고, React.js를 처음으로 배우면서 만들었기에 프로젝트 기간이
+                                        상당히 길어졌습니다. 그래서 굉장히 애정이 가는 프로젝트이며, 앞으로는 Next.js를 통해 SSR로 개편을 준비하고, 그 전까지는 블로그를 좀
+                                        더 다듬고 포스팅도 이어갈 예정입니다.
+                                    </div>
+                                </div>
+                                <ul class="tag_wrap">
+                                    <li class="tag">#Spring Framework</li>
+                                    <li class="tag">#easyOCR</li>
+                                    <li class="tag">#Chart.js</li>
+                                    <li class="tag">#OracleDB</li>
+                                    <li class="tag">#반응형웹</li>
+                                </ul>
+                                <div class="button_wrap">
+                                    <a>
+                                        <div class="readme" onclick="readmeClick()">Readme</div>
+                                    </a>
+                                    <a href="https://blog.poot97.woobi.co.kr" target="_blank">
+                                        <div class="goto">사이트 바로가기</div>
+                                    </a>
+                                    <a href="https://github.com/kimjy97/devBlog" target="_black">
+                                        <div class="more">GitHub</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wi wi1">
+                        <div class="Item_wrap">
+                            <div class="IMG_wrap">
+                                <div class="IMG_main" onclick="mainImgClick(1,0)"><img
+                                        src='./src/img/project_img/1_0.jpg' alt='프로젝트 메인이미지'></div>
+                                <div class="IMG_sub_wrap">
+                                    <div class="IMG_sub active" onclick="subImgClick(1,0)"><img
+                                            src='./src/img/project_img/1_0.jpg' alt='프로젝트 이미지'></div>
+                                    <div class="IMG_sub" onclick="subImgClick(1,1)"><img
+                                            src='./src/img/project_img/1_1.jpg' alt='프로젝트 이미지'></div>
+                                    <div class="IMG_sub" onclick="subImgClick(1,2, true)"><img class='mobileImg'
+                                            src='./src/img/project_img/1_2.jpg' alt='프로젝트 이미지'></div>
+                                </div>
+                            </div>
+                            <div class="info_wrap">
+                                <div class="info_title">DiaryWebSite</div>
+                                <div class="info_sub">개인프로젝트</div>
+                                <div class="info_main">Spring MVC 프로젝트
+
+                                </div>
+                                <ul class="tag_wrap">
+                                    <li class="tag">#Spring Framework</li>
+                                    <li class="tag">#FLASK</li>
+                                    <li class="tag">#AJAX</li>
+                                    <li class="tag">#API/REST API</li>
+                                    <li class="tag">#Chart.js</li>
+                                </ul>
+                                <div class="button_wrap">
+                                    <a href="https://kimjy97.github.io/Portfolio/" target="_blank">
+                                        <div class="goto">사이트 바로가기</div>
+                                    </a>
+                                    <a href="https://github.com/kimjy97/Portfolio" target="_blank">
+                                        <div class="more">GitHub</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wi wi2">
+                        <div class="Item_wrap">
+                            <div class="IMG_wrap">
+                                <div class="IMG_main" onclick="mainImgClick(2,0)"><img
+                                        src='./src/img/project_img/2_0.jpg' alt='프로젝트 메인이미지'></div>
+                                <div class="IMG_sub_wrap">
+                                    <div class="IMG_sub active" onclick="subImgClick(2,0)"><img
+                                            src='./src/img/project_img/2_0.jpg' alt='프로젝트 이미지'></div>
+                                    <div class="IMG_sub" onclick="subImgClick(2,1)"><img
+                                            src='./src/img/project_img/2_1.jpg' alt='프로젝트 이미지'></div>
+                                    <div class="IMG_sub" onclick="subImgClick(2,2, true)"><img class='mobileImg'
+                                            src='./src/img/project_img/2_2.jpg' alt='프로젝트 이미지'></div>
+                                </div>
+                            </div>
+                            <div class="info_wrap">
+                                <div class="info_title">아두이노를 활용한 근전도 측정 프로그램</div>
+                                <div class="info_sub">팀 프로젝트</div>
+                                <div class="info_main">AndroidStudio를 기반으로 실시간으로 근전도 수치를 측정할 수 있는 앱을 구현
+                                    <span onclick="moreButtonClick(2)">더보기</span>
+                                    <div class="more_wrap">
+                                        <p>···</p>
+                                        html/css를 배우던 초창기에 '이런 서비스가 있었으면 좋겠다' 해서 JQuery와 php를 연습할 겸 웹 프로젝트를 처음으로 진행하게
+                                        되었습니다.
+                                    </div>
+                                </div>
+                                <ul class="tag_wrap">
+                                    <li class="tag">#AndroidStudio</li>
+                                    <li class="tag">#Django</li>
+                                    <li class="tag">#REST API</li>
+                                    <li class="tag">#MySQL</li>
+                                </ul>
+                                <div class="button_wrap">
+                                    <a href="http://poot97.dothome.co.kr/TextGenerator/main.html" target="_blank">
+                                        <div class="goto">사이트 바로가기</div>
+                                    </a>
+                                    <a href="https://github.com/kimjy97/TEXT_GENERATOR" target="_blank">
+                                        <div class="more">GitHub</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wi wi3">
+                        <div class="Item_wrap">
+                            <div class="IMG_wrap">
+                                <div class="IMG_main" onclick="mainImgClick(3,0)"><img
+                                        src='./src/img/project_img/3_0.jpg' alt='프로젝트 메인이미지'></div>
+                                <div class="IMG_sub_wrap">
+                                    <div class="IMG_sub active" onclick="subImgClick(3,0)"><img
+                                            src='./src/img/project_img/3_0.jpg' alt='프로젝트 이미지'></div>
+                                    <div class="IMG_sub" onclick="subImgClick(3,1)"><img
+                                            src='./src/img/project_img/3_1.jpg' alt='프로젝트 이미지'></div>
+                                </div>
+                            </div>
+                            <div class="info_wrap">
+                                <div class="info_title">Django를 활용한 운동 추천 웹사이트</div>
+                                <div class="info_sub">팀 프로젝트</div>
+                                <div class="info_main">사용자의 운동 방법에 따라 유튜브 운동 영상 추천
+                                    했습니다.</div>
+                                <ul class="tag_wrap">
+                                    <li class="tag">#Django Framework</li>
+                                    <li class="tag">#Django embed_video</li>
+                                </ul>
+                                <div class="button_wrap">
+                                    <a href="https://kimjy97.github.io/FIAT-Redesign/" target="_blank">
+                                        <div class="goto">사이트 바로가기</div>
+                                    </a>
+                                    <a href="https://github.com/kimjy97/FIAT-Redesign" target="_blank">
+                                        <div class="more">GitHub</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="Item_nav_next" title="NEXT PROJECT"></div>
+                    <div class="m_nav_wrap">
+                        <div class="prev"></div>
+                        <div class="next"></div>
+                    </div>
+                </div>
+                <ul class="Item_nav_button_wrap">
+                    <li id="nav0" class="active"></li>
+                    <li id="nav1"></li>
+                    <li id="nav2"></li>
+                    <li id="nav3"></li>
+               
+                </ul>
+                <div class="sizeUP">
+                    <div class="top">
+                        <div class="close"></div>
+                    </div>
+                    <div class="ct"></div>
+                </div>
+                <div class="readme_container">
+                    <div class="readme_background" onclick="readmeClick()"></div>
+                    <div class="readme_scroll">
+                        <div class="readme_wrap">
+                            <h1>JongYeon's 개발 블로그<span>PROJECT</span></h1>
+                            
+                            <div class="table">
+                                <ul>
+                                    <li><p class="label">간단 소개</p><p>개발 관련 정보들을 메모해두고 싶어 직접 풀스택으로 만든 개발 블로그</p></li>
+                                    <li><p class="label">진행 기간</p><p>2022. 11 ~ 진행 중</p></li>
+                                    <li><p class="label">핵심 사용 기술</p>
+                                        <ul class="tags">
+                                            <li>
+                                                <quotes>React.js</quotes>
+                                            </li>
+                                            <li>
+                                                <quotes>scss</quotes>
+                                            </li>
+                                            <li>
+                                                <quotes>axios</quotes>
+                                            </li>
+                                            <li>
+                                                <quotes>Node.js</quotes>
+                                            </li>
+                                            <li>
+                                                <quotes>express</quotes>
+                                            </li>
+                                            <li>
+                                                <quotes>RESTful</quotes>
+                                            </li>
+                                            <li>
+                                                <quotes>MongoDB</quotes>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><p class="label">구성원</p><p>개인 프로젝트</p></li>
+                                    <li><p class="label">사이트 바로가기</p><p><a href="https://blog.poot97.woobi.co.kr" target="_blank">JongYeon's 개발
+                                        블로그</a></p></li>
+                                </ul>
+                            </div>
+
+                            <div class="hr"></div>
+                            
+                            <div class="detailImg_wrap">
+                                <img src="./src/img/project_img/0_0.jpg">
+                                <img src="./src/img/project_img/0_2.jpg">
+                                <img src="./src/img/project_img/0_3.jpg">
+                            </div>
+
+                            <h2>상세 내용</h2>
+                                <h3> · 기술 선정 이유</h3>
+                                <p>컴포넌트 구조화의 간편함과 CSR의 특징인 부드러운 화면 전환이 가능한 것이 UI/UX 적으로 매력적으로 느껴져 React를 선정했고, React와 같이 쓰기좋은 Node.js를 서버로 쓰기로 했다. DB는 noSQL에 대해서 알아보고 싶었고 복잡한 쿼리를 사용할 일이 없어보여 MongoDB를 사용했다.</p>
+                                <h3> · 프로젝트 과정</h3>
+                                <p>Figma로 디자인 -> React로 퍼블리싱 -> 데이터 스키마 정의 -> Node.js 서버 api 구축 -> 서버 배포 -> 검색엔진최적화(SEO) -> 개발자 지인들에게 간단한 QA 받고 버그 수정 -> 관리자페이지 구축 -> 유지보수</p>
+                                <h3> · 한계점</h3>
+                                <p>블로그를 만들고 구글 검색에 노출되어 여러 개발자들에게 정보를 공유하고 싶어서 SEO에 대해 찾아보다가 CSR 방식은 검색엔진최적화가 어렵다는 것을 알게 되었고 방법을 찾다가 SSR로 넘어가기에는 너무 오래걸릴 것 같아 CSR로 유지하면서 react-helmet과 sitemap을 생성하는 방법을 이용해 SEO 문제를 해결해 냈다. 다음에는 Next.js를 이용하여 SSR로 블로그를 개편해 볼 생각이다.</p>
+                        </div>
+                    </div>
+                    <div class="top">
+                        <div class="close" onclick="readmeClick()"></div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- Contact -->
+        <section class="section ct Contact" id="Contact">
+            <div class="Contact_container">
+                <div class="blend_background"></div>
+                <h1>CONTACT</h1>
+                <div class="Contact_wrap">
+                    <p>PHONE : 010. 2744. 9658</p>
+                    <p>E-MAIL : poot972@gmail.com</p>
+                    <p><a href="https://github.com/kimjy97" target="_blank">GITHUB : https://github.com/kimjy97</a></p>
+                    <p><a href="https://blog.poot97.woobi.co.kr" target="_blank">BLOG : https://blog.poot97.woobi.co.kr</a></p>
+                </div>
+                <ul class="social_wrap">
+                    <li><a href="https://github.com/kimjy97" target="_blank"><img src="src/img/github.png"
+                                alt="GITHUB"></a></li>
+                    <li><a href="#"><img src="src/img/instagram.png" alt="INSTAGRAM"></a></li>
+                    <li><a href="#"><img src="src/img/facebook.png" alt="FACEBOOK"></a></li>
+                </ul>
+                <div class="copyright">Copyright ⓒ 2024. JinGi All rights reserved.</div>
+        </section>
     </div>
-  <!-- Operating Systems -->
-  <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-    <div class="icon"><i class="icofont-computer"></i></div>
-    <h4 class="title">Operating Systems(OS)</h4>
-    <p class="description">
-      Windows<br>
-      Linux
-    </p>
-  </div>
-</div>
-        </div>
-      </section><!-- End Services Section -->
-      <!-- ======= Resume Section ======= -->
-      <section id="resume" class="resume">
-        <div class="container">
-          <div class="section-title">
-            <h2>Resume</h2>
-            <h4>학력, 자격증, 대외활동에 대한 설명입니다.</h4>
-          </div>
-          <div class="row">
-            <div class="col-lg-6" data-aos="fade-up">
-              <h3 class="resume-title">Education</h3>
-              <!--고등학교-->
-              <div class="resume-item">
-                <h4>남극 세종기지 고등학교</h4>
-                <h5>2014 - 2017</h5>
-                <p>인문계 졸업</p>
-                <p></p>
-              </div>
-              <!--대학교-->
-              <div class="resume-item">
-                <h4>남극대학교</h4>
-                <h5>2017 - 2021</h5>
-                <p>융합IT학과 졸업</p>
-                <ul>
-                  <li>컴퓨터과학 분야의 다양한 주제를 다루며 프로그래밍 언어, 소프트웨어 공학, 데이터베이스, 알고리즘, 웹 프로그래밍, 네트워크, 운영체제, 빅데이터 분석, 블록체인, 프로젝트
-                    관리, 객체지향 분석 및 설계, 지능형 시스템, 모바일 및 임베디드 프로그래밍과 같은 다양한 IT 분야에 관련된 기술과 지식을 습득했습니다.</li>
-                </ul>
-              </div>
-            </div>
-            <!--대외활동-->
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="resume-title">External activities</h3>
-              <div class="resume-item">
-                <h4>(계룡건설)빅데이터 기반 Green Tech SW개발자 과정</h4>
-                <h5>0000.00.00 ~ 00.00</h5>
-                <p> 풀스텍 개발 과정 수강중.ing</p>
-                <ul>
-                  <li>2050 탄소중립 시나리오에 발맞추어 환경문제와 관련된 소프트웨어 기술 및 풀스택 개발자가 되기위한 기술을 습득했습니다.</li>
-                  <li>주요 학습내용:<br/>
-                    - 자바 언어의 문법과 기본적인 개념<br/>
-                    - 자바프로그램을 활용한 웹 구축 및 운영 경험에 대한 노하우 습득<br/>
-                    - JavaServer Pages(JSP)와 Servlet을 이용하여 동적인 웹 페이지 구현<br/>
-                    - 빅데이터, 인공지능을 활용한 데이터수집·분석 및 예측 업무기술 습득<br/>
-                    · Spring Boot프레임워크 기반으로 한 웹개발 및 운영기술<br/>
-                    · 프로젝트를 통한 실전 경험 및 취업에 필요한 결과물 도출<br/>
-                  </li>
-                  <li>개인 프로젝트(참치 예측 프로그램)</li>
-                  <li>팀 프로젝트(에너지 관리 시스템)</li>
-                </ul>
-              </div>
-            </div>
-		  <!--수상-->
-	      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="resume-title">Awards</h3>
-              <div class="resume-item">
-		      <h4>미래 융합 교육원 - 우수상</h4>
-		      <h5>0000.00.00</h5></br>
-		      <h4>- 내용: 과정 중 개인 프로젝트, 코딩 테스트, 출석 부문 종합 성적 우수</h4>
-			<p>* 미래융합교육원장<p>
-                <img src="assets/img/sang1.png" class="img-fluid" alt="" width="300" height="400">
-                </p>
-              </div>
-          </div>
-            <!--자격증-->
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="resume-title">Certificate</h3>
-              <div class="resume-item">
-                <h4>SQL 개발자(SQLD)</h4>
-                <h5>0000.00.00</h5>
-                <p></p>
-                <p>
-                </p>
-              </div>
-              <div class="resume-item">
-                <h4>정보처리기사 합격</h4>
-                <h5>0000.00.00</h5>
-                <p></p>
-                <p>
-                </p>
-              </div>
-              <div class="resume-item">
-                <h4>빅데이터 분석기사 합격</h4>
-                <h5>0000.00.00</h5>
-                <p></p>
-                <p>
-                </p>
-              </div>
-            </div>
-        </div>
-      </section>
-      <!-- End Resume Section -->
-      <!-- ======= project Section ======= -->
-      <section id="project" class="portfolio section-bg">
-        <div class="container">
-          <div class="section-title">
-            <h2>Project</h2>
-            <h4>[Github Link] = 코드주소 / [프로젝트 문서] = 발표자료</h4>
-          </div>
-          <div class="row" data-aos="fade-up">
-            <div class="col-lg-12 d-flex justify-content-center">
-              <ul id="portfolio-flters">
-                <li data-filter="*" class="filter-active">All</li>
-                <li data-filter=".filter-Web">Web</li>
-                <li data-filter=".filter-AI">AI</li>
-                <li data-filter=".filter-Console">Console</li>
-              </ul>
-            </div>
-          </div>
-          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-             <!--프로젝트-->
-             <div class="col-lg-4 col-md-6 portfolio-item filter-Web filter-AI">
-              <div class="portfolio-links">
-                <img src="assets/img/proj.webp" class="img-fluid" alt="">
-                <p>
-                <h4>
-                  <a class="portfolio-links" href="깃허브경로"
-                    target="_blank">
-                    [Github Link]
-                  </a>
-                  <a class="portfolio-links"
-                    href="깃허브경로.pdf"
-                    target="_blank">
-                    [프로젝트 문서]
-                  </a>
-                </h4>
-                </p>
-                <h4>팀 프로젝트 - 탄소 중립 SW 개발</h4>
-                <hr>
-                <p><strong>프로젝트 기간 </strong>:0000.00.00 ~ 0000.00.00</p>
-                <p><strong>프로젝트 관리 방법론</strong> : 애자일 방법론(스크럼)</p>
-                <p><strong>역할 </strong> : PM /SM ( AI팀 )</p>
-                <hr>
-                <p><strong>프로젝트 도구</strong>:Spring-tool-suite, Pycharm, Jupyter, OracleDB 
-                  <br>SVN, JENKINS, JIRA, Github</p>
-                  <hr>
-                <p><strong>사용 기술</strong> :  Prophet 예측 모델 </p>
-                <p><strong>사용 언어</strong> : JAVA, JSP, HTML/CSS/JS, SQL, Python</p>
-                <hr>
-                <p>
-                  <strong>[프로젝트 설명]<br></strong>
-                  2050 탄소중립 시나리오 정책에 맞춰 탄소중립을 위한 가상의 BEMS(건물에너지시스템) 구축했습니다.<br><br>
-                  <strong>프로젝트 목표</strong>: 실시간 사용 에너지 확인 및 관측된 데이터로 학습을 통해 미래 사용량을 예측하며 에너지 사용량을 줄여 탄소중립 실현
-                  </p>
-                <hr>
-              </div>
-            </div>
-             <!--음식 분류 -->
-             <div class="col-lg-4 col-md-6 portfolio-item filter-AI">
-              <div class="portfolio-links">
-                <a><img src="assets/img/proj2.webp" class="img-fluid" alt=""></a>
-                <p>
-                <h4>
-                  <a class="portfolio-links" href="깃허브경로" target="_blank">
-                    [Github Link]
-                  </a>
-                  <a class="portfolio-links" href="깃허브경로.pdf"
-                    target="_blank">
-                    [프로젝트 문서]
-                  </a>
-                </h4>
-                </p>
-                <h4>개인프로젝트 - Exercise_Record V1.2 (foodinfo)</h4>
-                <hr>
-                <p><strong>프로젝트 기간 </strong>:2023.10.19 ~ 2023.10.26</p>
-                <hr>
-                <p><strong>프로젝트 방식</strong> : Deep Learning</p>
-                <p><strong>프로젝트 도구</strong> : Pycharm</p>
-                <p><strong>사용 기술</strong> : CNN, FLASK, AJAX </p>
-                <p><strong>사용 언어</strong> : Python</p>
-                <hr>
-                <p>
-                  <strong>[프로젝트 설명]<br></strong>
-                  <br>Exercise_Record 프로젝트에 AI(이미지 분류 모델)를 활용하기 위한 프로젝트.<br><br>
-                  <strong>프로젝트 목표</strong>: 음식 사진을 upload하면 모델을 통해 음식 분류 후 해당 음식 정보 반환<br>
-                  <br>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 portfolio-item filter-Web">
-              <div class="portfolio-links">
-                <img src="assets/img/proj3.webp" class="img-fluid" alt="">
-                <p>
-                <h4>
-                  <a class="portfolio-links" href="깃허브경로"
-                    target="_blank">
-                    [Github Link]
-                  </a>
-                  <a class="portfolio-links"
-                    href="깃허브경로.pdf"
-                    target="_blank">
-                    [프로젝트 문서]
-                  </a>
-                </h4>
-                </p>
-                <h4>개인프로젝트 - Exercise_Record</h4>
-                <hr>
-                <p><strong>프로젝트 기간 </strong>:2023.09.01 ~ 2023.09.22</p>
-                <hr>
-                <p><strong>프로젝트 방식</strong> : Spring MVC</p>
-                <p><strong>프로젝트 도구</strong> : Eclipse, Spring-tool-suite, OracleDB, Github</p>
-                <p><strong>사용 기술</strong> :,JQuery, AJAX, API(네이버,카카오)<br>XSS 공격을 방지(HtmlEscape라이브러리)<br>비밀번호 암호화(passwordEncoder) </p>
-                <p><strong>사용 언어</strong> : JAVA, JSP, HTML/CSS/JS, SQL</p>
-                <hr>
-                <p>
-                  <strong>[프로젝트 설명]<br></strong>
-                  Spring Framework를 사용하여 진행한 MVC 프로젝트 입니다.<br><br>
-                  <strong>프로젝트 목표</strong>: 개인의 운동일지를 작성하고 평가 및 분석하는 프로그램<br>
-                  <br>
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 portfolio-item filter-AI">
-              <div class="portfolio-links">
-                <a><img src="assets/img/proj.webp" class="img-fluid" alt=""></a>
-                <p>
-                <h4>
-                  <a class="portfolio-links" href="깃허브경로" target="_blank">
-                    [Github Link]
-                  </a>
-                  <a class="portfolio-links" href="깃허브경로.pdf"
-                    target="_blank">
-                    [프로젝트 문서]
-                  </a>
-                </h4>
-                </p>
-                <h4>팀 프로젝트 - 도로 교통 표지판 분류 및 인식 </h4>
-                <hr>
-                <p><strong>프로젝트 기간</strong> :2022.11.20 ~ 2022.12.10</p>
-                <p><strong>기여도 </strong> : 50%</p>
-                <hr>
-                <p><strong>프로젝트 방식</strong> : Machine Learning / Deep Learning</p>
-                <p><strong>사용 프로그램</strong> : Jupyter NoteBook / GoogleColab</p>
-                <p><strong>사용 언어</strong> : Python</p>
-                <hr>
-                <p>
-                  <strong>[프로젝트 개요]<br></strong>
-                  이 프로젝트는 교통 표지판 분류 및 인식 기능을 구현함으로써 자율주행 차량의 안전성을 향상시키는 것을 목표로 합니다. KAGGLE에서 제공된 대규모 교통 표지판 데이터셋을 활용,
-                  이미지 처리와 딥러닝 기술을 적용하여 교통 표지판을 식별하고 분류합니다.<br>
-                  <br><strong>[모델 아키텍처]<br></strong>
-                  이 프로젝트에서는 CNN아키텍처를 사용하였습니다. 합성곱 레이어와 풀링 레이어를 적절히 쌓아 모델의 복잡성을 표현하였고, 마지막에는 소프트맥스 함수를 사용하여 각 교통 표지판의
-                  클래스를 예측합니다<br>
-                 
-                </p>
-              </div>
-            </div>
-      </section>
-      <!-- End Portfolio Section -->
-      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-      <!-- ======= Testimonials Section ======= -->
-      <section id="testimonials" class="testimonials section-bg">
-      </section><!-- End Testimonials Section -->
-      <!-- ======= Contact Section ======= -->
-      <section id="contact" class="contact">
-        <div class="container">
-          <div class="container section-title">
-            <h2>CONTACT ME</h2>
-            <h4>포트폴리오를 끝까지 봐주셔서 감사합니다.</h4>
-          </div>
-          <div class="row" data-aos="fade-in">
-            <div class="container col-lg-10 d-flex align-items-stretch">
-              <div class="info">
-                <div class="address">
-                  <i class="icofont-google-map"></i>
-                  <h4>Location:</h4>
-                  <p>남극시</p>
-                </div>
-                <div class="email">
-                  <i class="icofont-envelope"></i>
-                  <h4>Email:</h4>
-                  <p>pangsu@gmail.com</p>
-                </div>
-                <div class="phone">
-                  <i class="icofont-phone"></i>
-                  <h4>Call:</h4>
-                  <p>000-0000-0000</p>
-                </div>
 
-                <div class="phone">
-                  <i class="icofont-github"></i>
-                  <h4>Github:</h4>
-                  <p><a href="https://github.com/sample" target="_blank">https://github.com/sample</a></p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            </div>
-          </div>
-      </section><!-- End Contact Section -->
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
 </body>
+
+<!-- Plugin : FullPage -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.15/fullpage.css"
+    integrity="sha512-joJLRX4chQYCQlk0R4FXEgZHqsWA1hf4e+C+QKyi8fnfDm8FlEsNAVo+ByQhD19BrgVZGSOJKAQZa5M5gXDtpQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.15/fullpage.min.js"
+    integrity="sha512-rNf09cQHIWzD8BU37lIb3rInygeWXW2hVqJ7niVtTPXWuVR3aFiph1eFIeDiEQV8J45u0qfp7ng8I3TzJHY4Eg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- Custom -->
+<script src="./js/topScrollbar.js"></script>
+<script src="./js/index.js"></script>
 
 </html>
