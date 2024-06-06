@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>JongYeon's PORTFOLIO</title>
+    <title>JinGi's PORTFOLIO</title>
     <meta name="description" content='안녕하세요. 성장하는 개발자 박진기의 포트폴리오 사이트입니다. 찾아주셔서 감사합니다.' />
     <meta property="og:url" content="https://seroypark.github.io/Portfolio/">
     <meta property="og:title" content="JongYeon's PORTFOLIO">
@@ -236,6 +236,13 @@
                             </li>
                             <li>
                                 <img  style="width: 80%;" src="src/img/stack_icon/oracle.png" alt="postman">
+                                <div>
+                                    <p>ORACLE</p>
+                                    <p>관계형</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img  style="width: 80%;" src="src/img/stack_icon/postman.png" alt="postman">
                                 <div>
                                     <p>POSTMAN</p>
                                     <p>Postman을 이용해 서버에 GET, POST 요청을 해서 서버 디버깅을 할 수 있습니다.</p>
@@ -549,30 +556,18 @@
                             
                             <div class="table">
                                 <ul>
-                                    <li><p class="label">간단 소개</p><p>개발 관련 정보들을 메모해두고 싶어 직접 풀스택으로 만든 개발 블로그</p></li>
-                                    <li><p class="label">진행 기간</p><p>2022. 11 ~ 진행 중</p></li>
+                                    <li><p class="label">간단 소개</p><p>사용자에게 운동 방법에 따라서 영상을 추천해주는 프로그램</p></li>
+                                    <li><p class="label">진행 기간</p><p>2021.03.09 ~ 2021.06.21</p></li>
                                     <li><p class="label">핵심 사용 기술</p>
                                         <ul class="tags">
                                             <li>
-                                                <quotes>React.js</quotes>
+                                                <quotes>Django</quotes>
                                             </li>
                                             <li>
-                                                <quotes>scss</quotes>
+                                                <quotes>Python</quotes>
                                             </li>
                                             <li>
-                                                <quotes>axios</quotes>
-                                            </li>
-                                            <li>
-                                                <quotes>Node.js</quotes>
-                                            </li>
-                                            <li>
-                                                <quotes>express</quotes>
-                                            </li>
-                                            <li>
-                                                <quotes>RESTful</quotes>
-                                            </li>
-                                            <li>
-                                                <quotes>MongoDB</quotes>
+                                                <quotes>Django-embed-video</quotes>
                                             </li>
                                         </ul>
                                     </li>
@@ -584,18 +579,21 @@
                             <div class="hr"></div>
                             
                             <div class="detailImg_wrap">
-                                <img src="./src/img/project_img/0_0.jpg">
-                                <img src="./src/img/project_img/0_2.jpg">
-                                <img src="./src/img/project_img/0_3.jpg">
+                                <img src="./src/img/project_img/fitweb/3_0.png">
+                                <img src="./src/img/project_img/fitweb/3_1.png">
+                                <img src="./src/img/project_img/fitweb/3_2.png">
+                                <img src="./src/img/project_img/fitweb/3_3.png">
                             </div>
 
                             <h2>상세 내용</h2>
-                                <h3> · 기술 선정 이유</h3>
-                                <p>컴포넌트 구조화의 간편함과 CSR의 특징인 부드러운 화면 전환이 가능한 것이 UI/UX 적으로 매력적으로 느껴져 React를 선정했고, React와 같이 쓰기좋은 Node.js를 서버로 쓰기로 했다. DB는 noSQL에 대해서 알아보고 싶었고 복잡한 쿼리를 사용할 일이 없어보여 MongoDB를 사용했다.</p>
                                 <h3> · 프로젝트 과정</h3>
-                                <p>Figma로 디자인 -> React로 퍼블리싱 -> 데이터 스키마 정의 -> Node.js 서버 api 구축 -> 서버 배포 -> 검색엔진최적화(SEO) -> 개발자 지인들에게 간단한 QA 받고 버그 수정 -> 관리자페이지 구축 -> 유지보수</p>
+                                <p> Django 프로젝트 설정, 앱 추가 -> 기본 페이지 생성 확인 -> 관리자 생성 및 확인 -> 모델 정의 -> 데이터베이스 마이그레이션 -> 관리자 사이트 등록 -> 뷰 파일 작성 -> URL 설정 및 뷰 연결 확인 -> 템플릿 만들기 -> 서버 실행 및 디버그</p>
                                 <h3> · 한계점</h3>
-                                <p>블로그를 만들고 구글 검색에 노출되어 여러 개발자들에게 정보를 공유하고 싶어서 SEO에 대해 찾아보다가 CSR 방식은 검색엔진최적화가 어렵다는 것을 알게 되었고 방법을 찾다가 SSR로 넘어가기에는 너무 오래걸릴 것 같아 CSR로 유지하면서 react-helmet과 sitemap을 생성하는 방법을 이용해 SEO 문제를 해결해 냈다. 다음에는 Next.js를 이용하여 SSR로 블로그를 개편해 볼 생각이다.</p>
+                                <p>기본 베이스가 없던 상태에서 프로젝트를 진행하다보니, 진행 속도가 생각보다 너무 느렸고 기본적인 뷰 함수를 만드는 것 조차 힘이 들었던것 같다.</p>
+                                <h3> · 배운점</h3>
+                                <p>파이썬에 처음 입문하게 되었고, 프레임워크라는 단어를 배웠다.
+                                    빠른 개발을 위해 Django를 사용하고, 무엇보다 관리자페이지
+                                </p>
                         </div>
                     </div>
                     <div class="top">
