@@ -259,6 +259,18 @@ const readmeClick = () => {
     }
     readmeOpen = !readmeOpen;
 }
+// 클릭 이벤트
+const readmeClick2 = () => {
+    if (readmeOpen) {
+        $('.readme_container2').removeClass('visible');
+        $('html').css({ overflow: 'auto' });
+    } else {
+        $('.readme_container2').addClass('visible');
+        $('html').css({ overflow: 'hidden' });
+        $('.readme_scroll2').scrollTop(0,0);
+    }
+    readmeOpen = !readmeOpen;
+}
 const moreButtonClick = (e) => {
     $('.wi' + e + ' .info_main .more_wrap').stop().slideToggle(150);
     if ($('.wi' + e + ' .info_main span').text() == '더보기')
