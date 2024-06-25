@@ -246,6 +246,9 @@ $(window).resize(function () {
 );
 
 let readmeOpen = false;
+let readmeOpen2 = false;
+let readmeOpen3 = false;
+let readmeOpen4 = false;
 
 // 클릭 이벤트
 const readmeClick = () => {
@@ -261,7 +264,7 @@ const readmeClick = () => {
 }
 // 클릭 이벤트
 const readmeClick2 = () => {
-    if (readmeOpen) {
+    if (readmeOpen2) {
         $('.readme_container2').removeClass('visible');
         $('html').css({ overflow: 'auto' });
     } else {
@@ -269,7 +272,30 @@ const readmeClick2 = () => {
         $('html').css({ overflow: 'hidden' });
         $('.readme_scroll2').scrollTop(0,0);
     }
-    readmeOpen = !readmeOpen;
+    readmeOpen2 = !readmeOpen2;
+}
+
+const readmeClick3 = () => {
+    if (readmeOpen3) {
+        $('.readme_container3').removeClass('visible');
+        $('html').css({ overflow: 'auto' });
+    } else {
+        $('.readme_container3').addClass('visible');
+        $('html').css({ overflow: 'hidden' });
+        $('.readme_scroll3').scrollTop(0,0);
+    }
+    readmeOpen3 = !readmeOpen3;
+}
+const readmeClick4 = () => {
+    if (readmeOpen4) {
+        $('.readme_container4').removeClass('visible');
+        $('html').css({ overflow: 'auto' });
+    } else {
+        $('.readme_container4').addClass('visible');
+        $('html').css({ overflow: 'hidden' });
+        $('.readme_scroll4').scrollTop(0,0);
+    }
+    readmeOpen4 = !readmeOpen4;
 }
 const moreButtonClick = (e) => {
     $('.wi' + e + ' .info_main .more_wrap').stop().slideToggle(150);
@@ -283,11 +309,11 @@ const subImgClick = (e, index, m = false) => {
     $('.wi' + e + ' .IMG_sub').removeClass('active');
     $('.wi' + e + ' .IMG_sub').eq(index).addClass('active');
     if (m) {
-        //$('.wi' + e + ' .IMG_main').html(`<img class='mobileImg' src='./src/img/project_img/fitweb/${e}_${index}.png' alt='프로젝트 이미지' onclick="mainImgClick(${e}, ${index}, ${m})">`);
-        document.querySelector('.wi' + e + ' .IMG_main').outerHTML = `<div class="IMG_main" onclick="mainImgClick(${e}, ${index}, ${m})"><img class='mobileImg' src='./src/img/project_img/fitweb/${e}_${index}.png' alt='프로젝트 이미지'></div>`;
+        //$('.wi' + e + ' .IMG_main').html(`<img class='mobileImg' src='./src/img/project_img/${e}_${index}.png' alt='프로젝트 이미지' onclick="mainImgClick(${e}, ${index}, ${m})">`);
+        document.querySelector('.wi' + e + ' .IMG_main').outerHTML = `<div class="IMG_main" onclick="mainImgClick(${e}, ${index}, ${m})"><img class='mobileImg' src='./src/img/project_img/${e}_${index}.png' alt='프로젝트 이미지'></div>`;
     } else {
-        //$('.wi' + e + ' .IMG_main').html(`<img src='./src/img/project_img/fitweb/${e}_${index}.png' alt='프로젝트 이미지' onclick="mainImgClick(${e}, ${index}, ${m})">`);
-        document.querySelector('.wi' + e + ' .IMG_main').outerHTML = `<div class="IMG_main" onclick="mainImgClick(${e}, ${index}, ${m})"><img src='./src/img/project_img/fitweb/${e}_${index}.png' alt='프로젝트 이미지'></div>`;
+        //$('.wi' + e + ' .IMG_main').html(`<img src='./src/img/project_img/${e}_${index}.png' alt='프로젝트 이미지' onclick="mainImgClick(${e}, ${index}, ${m})">`);
+        document.querySelector('.wi' + e + ' .IMG_main').outerHTML = `<div class="IMG_main" onclick="mainImgClick(${e}, ${index}, ${m})"><img src='./src/img/project_img/${e}_${index}.png' alt='프로젝트 이미지'></div>`;
     }
     $('.wi' + e + ' .IMG_main img').css({ opacity: '0' });
     $('.wi' + e + ' .IMG_main img').animate({ opacity: '1' }, 150);
@@ -297,9 +323,9 @@ const mainImgClick = (e, index, m = false) => {
     $('.sizeUP').addClass('visible');
     $('.sizeUP').focus();
     if (m) {
-        $('.sizeUP .ct').html(`<img class='mobileImg' src='./src/img/project_img/fitweb/${e}_${index}.png' alt='프로젝트 이미지'>`);
+        $('.sizeUP .ct').html(`<img class='mobileImg' src='./src/img/project_img/${e}_${index}.png' alt='프로젝트 이미지'>`);
     } else {
-        $('.sizeUP .ct').html(`<img src='./src/img/project_img/fitweb/${e}_${index}.png' alt='프로젝트 이미지'>`);
+        $('.sizeUP .ct').html(`<img src='./src/img/project_img/${e}_${index}.png' alt='프로젝트 이미지'>`);
     }
     $('.sizeUP .ct').scrollTop(0);
     $('html').css('overflow', 'hidden');
