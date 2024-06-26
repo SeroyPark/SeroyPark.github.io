@@ -389,12 +389,12 @@
                                     <a>
                                         <div class="readme2" onclick="readmeClick2()">Readme</div>
                                     </a>
-                                    <a href="https://blog.poot97.woobi.co.kr" target="_blank">
+                                   <!--  <a href="https://blog.poot97.woobi.co.kr" target="_blank">
                                         <div class="goto">사이트 바로가기</div>
                                     </a>
                                     <a href="https://github.com/kimjy97/devBlog" target="_black">
                                         <div class="more">GitHub</div>
-                                    </a>
+                                    </a> -->
                                 </div>
                             </div>
                         </div>
@@ -441,12 +441,12 @@
                                     <a>
                                         <div class="readme3" onclick="readmeClick3()">Readme</div>
                                     </a>
-                                    <a href="https://kimjy97.github.io/Portfolio/" target="_blank">
+                                    <!-- <a href="https://kimjy97.github.io/Portfolio/" target="_blank">
                                         <div class="goto">사이트 바로가기</div>
                                     </a>
                                     <a href="https://github.com/kimjy97/Portfolio" target="_blank">
                                         <div class="more">GitHub</div>
-                                    </a>
+                                    </a> -->
                                 </div>
                             </div>
                         </div>
@@ -455,14 +455,14 @@
                         <div class="Item_wrap">
                             <div class="IMG_wrap">
                                 <div class="IMG_main" onclick="mainImgClick(2,0)"><img
-                                        src='./src/img/project_img/2_0.jpg' alt='프로젝트 메인이미지'></div>
+                                        src='./src/img/project_img/2_0.png' alt='프로젝트 메인이미지'></div>
                                 <div class="IMG_sub_wrap">
                                     <div class="IMG_sub active" onclick="subImgClick(2,0)"><img
-                                            src='./src/img/project_img/2_0.jpg' alt='프로젝트 이미지'></div>
+                                            src='./src/img/project_img/2_0.png' alt='프로젝트 이미지'></div>
                                     <div class="IMG_sub" onclick="subImgClick(2,1)"><img
-                                            src='./src/img/project_img/2_1.jpg' alt='프로젝트 이미지'></div>
+                                            src='./src/img/project_img/2_1.png' alt='프로젝트 이미지'></div>
                                     <div class="IMG_sub" onclick="subImgClick(2,2, true)"><img class='mobileImg'
-                                            src='./src/img/project_img/2_2.jpg' alt='프로젝트 이미지'></div>
+                                            src='./src/img/project_img/2_2.png' alt='프로젝트 이미지'></div>
                                 </div>
                             </div>
                             <div class="info_wrap">
@@ -486,12 +486,12 @@
                                     <a>
                                         <div class="readme4" onclick="readmeClick4()">Readme</div>
                                     </a>
-                                    <a href="http://poot97.dothome.co.kr/TextGenerator/main.html" target="_blank">
+                                    <!-- <a href="http://poot97.dothome.co.kr/TextGenerator/main.html" target="_blank">
                                         <div class="goto">사이트 바로가기</div>
                                     </a>
                                     <a href="https://github.com/kimjy97/TEXT_GENERATOR" target="_blank">
                                         <div class="more">GitHub</div>
-                                    </a>
+                                    </a> -->
                                 </div>
                             </div>
                         </div>
@@ -543,12 +543,12 @@
                                     <a>
                                         <div class="readme" onclick="readmeClick()">Readme</div>
                                     </a>
-                                    <a href="https://kimjy97.github.io/FIAT-Redesign/" target="_blank">
+                                    <!-- <a href="https://kimjy97.github.io/FIAT-Redesign/" target="_blank">
                                         <div class="goto">사이트 바로가기</div>
                                     </a>
                                     <a href="https://github.com/kimjy97/FIAT-Redesign" target="_blank">
                                         <div class="more">GitHub</div>
-                                    </a>
+                                    </a> -->
                                 </div>
                             </div>
                         </div>
@@ -681,13 +681,20 @@
 
                             <h2>상세 내용</h2>
                                 <h3> · 프로젝트 과정</h3>
-                                <p>ㄴ</p>
-                                <p></p>
+                                <p>에너지 데이터 확인 및 수집 -> 요구사항 문서화 -> 사용자 관리 / 가계부 및 캘린더 / 탄소배출량 비교 3가지로 기능 분배</p>
+                                <br><p>가계부 전체적인 쿼리 작성 -> 월별 지출, 수입, 잔액과 지출 카테고리, 총 지출 정보 불러오기
+                                 Ajax로 rest-api controller 요청하고 json으로 VO를 전달받아 Chart.js로 그래프 출력, 가계부 글쓰기 작성, 원단위 표시, 더보기 구현
+                                 <br>가계부 부가기능 : 고지서 이미지 인식, 캘린더
+                                 <br>분류 : 로그인/회원가입(소셜로그인), 탄소배출량 비교, 가계부, 
+                                </p>
                                 <h3> · 한계점</h3>
-                                <p>ㄴ
+                                <p> <br>
+                                 가계부를 전체적으로 완성을 하고 사소한 오류가 많이 발생하여 많은 시간을 소요했다. 이로 인해 예정 완성일 보다 조금 늦게 완성이 되었다.
+                                 팀원들의 실력차이와 의지부족으로 진작에 완성되었어야 할 다른 기능들이 만들어지지 않아서 팀장 인원이 남는 일을 도맡아서 하였다.
                                 </p>
                                 <h3> · 배운점</h3>
-                                <p>ㄴ</p>
+                                <p>차트를 생성하기 위해 VO의 데이터를 불러오는 과정에서 많은 시간을 소요하였다. 
+                                    이유는 Ajax로 요청을 하지만 데이터가 json으로 오지 않았기 때문이였고 스프링의 rest-controller를 사용하여 VO의 데이터를 json형태로 가져오니 해결이 되었다.</p>
                         </div>
                     </div>
                     <div class="top">
@@ -698,7 +705,7 @@
                     <div class="readme_background" onclick="readmeClick3()"></div>
                     <div class="readme_scroll3">
                         <div class="readme_wrap3">
-                            <h1>아ㅁㄴㅇㄻㄴㅇㄹ<span>PROJECT</span></h1>
+                            <h1>다이어리 웹사이트<span>PROJECT</span></h1>
                             
                             <div class="table3">
                                 <ul>
@@ -736,13 +743,15 @@
 
                             <h2>상세 내용</h2>
                                 <h3> · 프로젝트 과정</h3>
-                                <p>ㅏ</p>
+                                <p>회원가입, 로그인 구현 / 글쓰기, 게시판 / 세션 리다이렉트 / API(네이버 클로바 SENTIMENT, KAKAO MAP) / AJAX -> FLASK요청 / CHART.JS활용 
+                                    <br> 게시글 감정분석 : 네이버 클로바 SENTIMNET API/FLASK 활용<BR>장소선택 : KAKAO MAP API
+                                </p>
                                 <p></p>
                                 <h3> · 한계점</h3>
-                                <p>ㅏ
+                                <p> 스프링에 대한 이해도 부족으로 오라클 DB를 연결하고 VO를 매핑하는 과정이 오래 걸렸다.
                                 </p>
                                 <h3> · 배운점</h3>
-                                <p>ㅣ</p>
+                                <p> FLASK를 활용하고 AJAX를 활용한 API 요청 방식을 이해할 수 있었고, 간단한 Chart.js 활용으로</p>
                         </div>
                     </div>
                     <div class="top">
@@ -784,10 +793,9 @@
                             <div class="hr"></div>
                             
                             <div class="detailImg_wrap4">
-                                <img src="./src/img/project_img/3_0.png">
-                                <img src="./src/img/project_img/3_1.png">
-                                <img src="./src/img/project_img/3_2.png">
-                                <img src="./src/img/project_img/3_3.png">
+                                <img src="./src/img/project_img/2_0.png">
+                                <img src="./src/img/project_img/2_1.png">
+                                <img src="./src/img/project_img/2_2.png">
                             </div>
 
                             <h2>상세 내용</h2>
